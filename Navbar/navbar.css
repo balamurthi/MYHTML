@@ -1,0 +1,114 @@
+                        /* Container Styling */
+                        
+                        .container-fluid {
+                            background-color: #004A9F;
+                            font-weight: bold;
+                            margin-left: 90px;
+                            font-family: sans-serif;
+                        }
+                        /* Navbar Styling */
+                        
+                        .navbar {
+                            background-color: #004A9F;
+                        }
+                        /* Navbar Styling */
+                        
+                        .navbar-nav {
+                            margin-left: 90px;
+                            /* Move navbar items 90px to the right */
+                        }
+                        
+                        nav {
+                            position: sticky;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            z-index: 1000;
+                            background-color: green;
+                            font-size: 14px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            height: 50px;
+                            /* Set the fixed height of the navbar */
+                            line-height: 50px;
+                            /* Center text vertically within the navbar */
+                        }
+                        /* Navbar List Item Styling */
+                        
+                        nav ul {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: visible;
+                        }
+                        /* Navbar List Item Styling */
+                        
+                        nav ul li {
+                            position: relative;
+                            display: inline-block;
+                        }
+                        /* Link Styling */
+                        
+                        nav ul li a {
+                            display: block;
+                            /* Ensure the link takes up the full space of its parent */
+                            text-align: center;
+                            padding: 0 20px;
+                            /* Adjust padding as needed */
+                            color: black;
+                            /* Adjust text color */
+                            text-decoration: none;
+                            /* Remove underline */
+                            height: 50px;
+                            /* Ensure link height matches navbar height */
+                            line-height: 50px;
+                            /* Center text vertically within the link */
+                        }
+                        /* Active Link Styling */
+                        
+                        a.active {
+                            background-color: green;
+                            /*text-align: center;
+                // Set the background color for active main menu items */
+                            /* Add any other styles to indicate the active state */
+                        }
+                        /* Navbar Item Hover Styling */
+                        
+                        .nav-item:hover,
+                        nav ul li:hover {
+                            background-color: green;
+                            /*width: 100%;
+                  transition: .3s;*/
+                        }
+                        /* Dropdown Menu Styling */
+                        
+                        .dropdown-menu {
+                            display: none;
+                            position: absolute;
+                            background-color: white;
+                            padding: 0 0 0 0px;
+                        }
+                        /* Show Dropdown Menu on Hover */
+                        
+                        li:hover .dropdown-menu {
+                            display: block;
+                        }
+                        /* Dropdown Menu Item Styling */
+                        
+                        .dropdown-menu li {
+                            display: block;
+                        }
+                        /* Dropdown Item Hover Styling */
+                        
+                        .dropdown-item:hover {
+                            background-color: green;
+                            width: 100%;
+                        }
+                        /* Center Align Links */
+                        
+                        a {
+                            text-align: center;
+                        }
+                        
+                        nav.navbar.navbar-expand-lg.navbar-dark {
+                            position: relative;
+                        }

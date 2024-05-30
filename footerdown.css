@@ -1,0 +1,16 @@
+    .footcontainer {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .color {
+        color: green;
+    }
+    
+    .footer.text-white.text-center {
+        background-color: #0a1c1e;
+        opacity: 3;
+    }
+    
+    .footerdown {
+        padding: 10px 0px;
+    }
